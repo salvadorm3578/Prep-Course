@@ -32,6 +32,21 @@ body {
 
 }
 
+
+
+
+
+
+
+.formulario__num{
+    width: 25%;
+    font-size: 1.3em;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    background: rgba(0,0,0,0.1); 
+}
+
 .formulario__input{
 padding: 20px;
 border: 1px solid rgba(0,0,0,0.5);
@@ -44,6 +59,8 @@ outline: 1px solid rgba(0, 0, 0, 0.8);
 
 }
 
+
+
 .formulario__input:focus + 
 .formulario__label{
     margin-top: -135px;
@@ -51,6 +68,20 @@ outline: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 
+
+.formulario__label__num{
+    width: 35%;
+    font-size: 1.3em;
+    /*border: 2px solid;*/
+    
+    position: absolute; 
+    margin-top: 19px ;
+    margin-left: -110px ;
+    z-index: -1;  
+    color: rgba(0,0,0,0.5);
+    transition: all 0.3s;  
+}
+ 
 .formulario__label{
  padding-left: 15px;
  position: absolute; 
@@ -60,20 +91,28 @@ outline: 1px solid rgba(0, 0, 0, 0.8);
  transition: all 0.3s;  
 }
 
+
+
 .formulario__submit {
     background: rgba(0,0,0,0.5);
     color: white;
     padding: 10px;
     cursor: pointer;
     border: none;
+
+}
+
+.formulario__label__resul{
+    font-size: 2em;
     
-
-
-
-
-
 }
 
 .fijar{
     margin-top: -135px;
+}
+
+#input__num3{
+    width: 200px;
+    height: 20px;
+    border:1px solid black;  
 }
